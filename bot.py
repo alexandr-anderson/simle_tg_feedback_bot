@@ -56,7 +56,7 @@ async def user_voice_handler(message: types.Message):
     user_first_name = message.from_user.first_name
     logging.info(f'{user_id=} {user_full_name=} {time.asctime()}')
 
-    mess = f'Мммм  голосовое, отправляю его модератору и сам послушаю на досуге, спасибо тебе <b>{user_full_name}</b>!'
+    mess = f'Мммм  голосовое, люблю их, отправляю его модератору и сам послушаю на досуге(нет), спасибо тебе <b>{user_full_name}</b>!'
 
     await message.reply(mess, parse_mode="html")
 
